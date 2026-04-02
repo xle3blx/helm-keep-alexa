@@ -6,7 +6,7 @@ Alexa skill package for [Helm Keep](https://github.com/YOUR_USERNAME/helm-keep-w
 
 Kids can interact with their chores using voice commands on any Alexa-enabled device:
 
-- **"Alexa, open Helm Keep"** — Launch the skill
+- **"Alexa, open My Chores"** — Launch the skill
 - **"I'm Jesse"** — Identify which family member is speaking
 - **"What are my chores?"** — List assigned chores with due dates and rewards
 - **"I finished the dishes"** — Submit a chore for completion/approval
@@ -31,7 +31,7 @@ Kids can interact with their chores using voice commands on any Alexa-enabled de
 
 1. Go to [developer.amazon.com/alexa/console/ask](https://developer.amazon.com/alexa/console/ask)
 2. Click **Create Skill** > **Custom** > **Provision your own**
-3. Set the invocation name to `helm keep`
+3. Set the invocation name to `my chores`
 4. Copy the interaction model from `skill-package/interactionModels/custom/en-US.json` into the **JSON Editor** under the Interaction Model section
 5. Under **Endpoint**, choose **HTTPS** and enter: `https://YOUR_DOMAIN/api/alexa`
 6. Select the SSL certificate type: **My development endpoint has a certificate from a trusted certificate authority**
@@ -56,7 +56,7 @@ Kids can interact with their chores using voice commands on any Alexa-enabled de
 
 ### 4. Test it
 
-Say: **"Alexa, open Helm Keep"**
+Say: **"Alexa, open My Chores"**
 
 ## How it works
 
