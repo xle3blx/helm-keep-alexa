@@ -159,6 +159,26 @@
           ]
         },
         {
+          "name": "ChoreDetailsIntent",
+          "slots": [
+            {
+              "name": "choreName",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "tell me about {choreName}",
+            "what is {choreName}",
+            "what does {choreName} mean",
+            "describe {choreName}",
+            "what do I do for {choreName}",
+            "explain {choreName}",
+            "more info on {choreName}",
+            "details on {choreName}",
+            "what's {choreName}"
+          ]
+        },
+        {
           "name": "AMAZON.HelpIntent",
           "samples": []
         },
