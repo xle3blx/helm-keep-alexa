@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Track and complete household chores with your voice",
+          "examplePhrases": [
+            "Alexa, open Helm Keep",
+            "what are my chores",
+            "I finished the dishes"
+          ],
+          "keywords": [
+            "chores",
+            "household",
+            "tasks",
+            "allowance",
+            "family"
+          ],
+          "name": "Helm Keep",
+          "description": "Helm Keep lets your family manage chores and allowances by voice. Kids can check their assigned chores, mark them as done, and check their balance — all hands-free through Alexa."
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "1. Generate an API key in Helm Keep Settings > Alexa Integration. 2. Link your account in the Alexa app using that key. 3. Say 'Alexa, open Helm Keep'. 4. Identify yourself by name. 5. Try 'what are my chores', 'I finished [chore]', and 'what's my balance'.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://YOUR_DOMAIN/api/alexa",
+          "sslCertificateType": "Trusted"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    },
+    "permissions": [],
+    "accountLinkingInfo": {
+      "accessTokenUri": "https://YOUR_DOMAIN/alexa/link",
+      "authorizationUri": "https://YOUR_DOMAIN/alexa/link",
+      "accessTokenScheme": "HTTP_BASIC",
+      "type": "IMPLICIT"
+    }
+  }
+}

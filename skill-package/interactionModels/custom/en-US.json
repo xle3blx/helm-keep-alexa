@@ -1,0 +1,97 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "helm keep",
+      "intents": [
+        {
+          "name": "IdentifyMemberIntent",
+          "slots": [
+            {
+              "name": "memberName",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "I'm {memberName}",
+            "my name is {memberName}",
+            "this is {memberName}",
+            "it's {memberName}",
+            "{memberName}",
+            "I am {memberName}",
+            "call me {memberName}",
+            "{memberName} here",
+            "hey it's {memberName}"
+          ]
+        },
+        {
+          "name": "ListChoresIntent",
+          "slots": [],
+          "samples": [
+            "what are my chores",
+            "list my chores",
+            "what do I need to do",
+            "what's on my list",
+            "do I have any chores",
+            "what tasks do I have",
+            "what needs to be done",
+            "my chores",
+            "what chores do I have",
+            "tell me my chores",
+            "any chores for me"
+          ]
+        },
+        {
+          "name": "CompleteChoreIntent",
+          "slots": [
+            {
+              "name": "choreName",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "I finished {choreName}",
+            "I'm done with {choreName}",
+            "I completed {choreName}",
+            "mark {choreName} as done",
+            "{choreName} is done",
+            "I did {choreName}",
+            "done with {choreName}",
+            "I just finished {choreName}",
+            "finished {choreName}"
+          ]
+        },
+        {
+          "name": "CheckBalanceIntent",
+          "slots": [],
+          "samples": [
+            "what's my balance",
+            "how much money do I have",
+            "check my balance",
+            "what's my total",
+            "how much have I earned",
+            "my balance",
+            "what is my balance",
+            "how much do I have",
+            "tell me my balance"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ]
+    }
+  }
+}
