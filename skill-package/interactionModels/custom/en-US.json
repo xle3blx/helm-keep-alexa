@@ -76,6 +76,40 @@
           ]
         },
         {
+          "name": "OpenTasksIntent",
+          "slots": [],
+          "samples": [
+            "are there any open tasks",
+            "what tasks are available",
+            "any open tasks",
+            "what's available",
+            "open tasks",
+            "unclaimed tasks",
+            "are there any tasks I can take",
+            "what can I do",
+            "is there anything available"
+          ]
+        },
+        {
+          "name": "ClaimTaskIntent",
+          "slots": [
+            {
+              "name": "taskName",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "I'll take {taskName}",
+            "I want {taskName}",
+            "claim {taskName}",
+            "give me {taskName}",
+            "assign me {taskName}",
+            "I'll do {taskName}",
+            "let me do {taskName}",
+            "sign me up for {taskName}"
+          ]
+        },
+        {
           "name": "AMAZON.HelpIntent",
           "samples": []
         },
