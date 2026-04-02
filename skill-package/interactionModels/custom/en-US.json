@@ -93,6 +93,22 @@
           ]
         },
         {
+          "name": "HighestRewardIntent",
+          "slots": [],
+          "samples": [
+            "what is the highest reward",
+            "what chore pays the most",
+            "give me the chore that pays the most",
+            "what will make me the most money",
+            "what's the best paying chore",
+            "highest paying chore",
+            "which chore has the biggest reward",
+            "what nets the most money",
+            "give me the task that will net me the most money",
+            "what is the task with the highest reward"
+          ]
+        },
+        {
           "name": "ClaimTaskIntent",
           "slots": [
             {
