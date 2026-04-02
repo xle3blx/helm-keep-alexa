@@ -185,6 +185,26 @@
           ]
         },
         {
+          "name": "FindByPerkIntent",
+          "slots": [
+            {
+              "name": "perkName",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "are there any chores that let me {perkName}",
+            "chores with {perkName}",
+            "find chores with {perkName}",
+            "which chores have {perkName}",
+            "what chores let me {perkName}",
+            "is there a chore where I can {perkName}",
+            "I want to {perkName}",
+            "how can I earn {perkName}",
+            "any chores with the perk {perkName}"
+          ]
+        },
+        {
           "name": "ChoreDetailsIntent",
           "slots": [
             {
