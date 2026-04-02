@@ -79,15 +79,17 @@
           "name": "OpenTasksIntent",
           "slots": [],
           "samples": [
-            "are there any open tasks",
-            "what tasks are available",
-            "any open tasks",
+            "are there any new chores",
+            "any new chores",
+            "are there any open chores",
+            "any open chores",
+            "what chores are available",
             "what's available",
-            "open tasks",
-            "unclaimed tasks",
-            "are there any tasks I can take",
+            "are there any chores I can take",
             "what can I do",
-            "is there anything available"
+            "is there anything available",
+            "any new tasks",
+            "are there any open tasks"
           ]
         },
         {
