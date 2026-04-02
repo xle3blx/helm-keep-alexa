@@ -98,6 +98,32 @@
           ]
         },
         {
+          "name": "NewestChoresIntent",
+          "slots": [],
+          "samples": [
+            "what are the newest chores",
+            "show me the latest chores",
+            "newest chores",
+            "latest chores",
+            "what was added recently",
+            "any recent chores",
+            "what's new"
+          ]
+        },
+        {
+          "name": "MoreChoresIntent",
+          "slots": [],
+          "samples": [
+            "more chores",
+            "tell me more",
+            "next",
+            "more",
+            "keep going",
+            "what else",
+            "continue"
+          ]
+        },
+        {
           "name": "HighestRewardIntent",
           "slots": [],
           "samples": [
