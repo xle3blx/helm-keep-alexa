@@ -159,6 +159,32 @@
           ]
         },
         {
+          "name": "EasiestChoresIntent",
+          "slots": [],
+          "samples": [
+            "what are the easiest chores",
+            "easiest chores",
+            "what's the easiest chore",
+            "show me easy chores",
+            "what's quick to do",
+            "give me something easy",
+            "what takes the least effort"
+          ]
+        },
+        {
+          "name": "HardestChoresIntent",
+          "slots": [],
+          "samples": [
+            "what are the hardest chores",
+            "hardest chores",
+            "what's the hardest chore",
+            "show me hard chores",
+            "what takes the most effort",
+            "give me something challenging",
+            "what's the toughest chore"
+          ]
+        },
+        {
           "name": "ChoreDetailsIntent",
           "slots": [
             {
